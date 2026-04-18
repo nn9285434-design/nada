@@ -1,0 +1,69 @@
+*{
+   margin: 0;
+    padding: 0;
+}
+.title{
+    display: flex;
+    text-align: center;
+    gap: 180px;
+   justify-content: center;
+   background-color: rgb(135, 186, 68) ;
+   color: beige;
+   padding: 7px;
+
+   }
+h2{
+    color:  rgb(135, 186, 68);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px  30% 20px 10%;
+}
+  .header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+nav ul {
+    display: flex;
+    gap: 30px;
+    text-decoration:none;
+    list-style:none;
+    font-size: x-small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav a{
+    text-decoration:none;
+    color: black;
+    display: inline;
+}
+.back{
+   background-image:url(pngtree-bunch-of-fresh-vegetables-and-fruits-on-a-black-background-image_2899341.jpg) ;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+.back h1{
+    color: white;
+     font-family: cursive;
+}
+.back h4{
+    color: white;
+    font-size: x-small;
+    font-family: cursive;
+
+}
+.back button{
+    color: white;
+    background-color:  rgb(165, 210, 105);
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 25px;
+
+}
+
+ 
