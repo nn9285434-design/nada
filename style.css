@@ -44,7 +44,7 @@ nav a{
     align-items: center;
     height: 100vh;
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 .back h1{
     color: white;
@@ -58,9 +58,9 @@ nav a{
 }
 .back button{
     color: white;
-    background-color:  rgb(165, 210, 105);
+    background-color:  rgb(93, 133, 41);
     border: none;
-    border-radius: 50px;
+    border-radius: 60px;
     padding: 10px;
     margin-top: 25px;
 
