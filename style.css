@@ -1,42 +1,48 @@
-*{
-   margin: 0;
+* {
+    margin: 0;
     padding: 0;
 }
-.title{
+
+.title {
     display: flex;
     text-align: center;
     gap: 180px;
-   justify-content: center;
-   background-color: rgb(135, 186, 68) ;
-   color: beige;
-   padding: 7px;
+    justify-content: center;
+    background-color: rgb(135, 186, 68);
+    color: beige;
+    padding: 7px;
 
-   }
-h2{
-    color:  rgb(135, 186, 68);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px  30% 20px 10%;
 }
-  .header{
+
+h2 {
+    color: rgb(135, 186, 68);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 30% 20px 10%;
+}
+
+.header {
     display: flex;
     align-items: center;
     gap: 15px;
-  }
+}
+
 nav ul {
     display: flex;
     gap: 30px;
-    text-decoration:none;
-    list-style:none;
+    text-decoration: none;
+    list-style: none;
     font-size: x-small;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-nav a{
-    text-decoration:none;
+
+nav a {
+    text-decoration: none;
     color: black;
     display: inline;
 }
-.back{
-   background-image:url(pngtree-bunch-of-fresh-vegetables-and-fruits-on-a-black-background-image_2899341.jpg) ;
+
+.back {
+    background-image: url(pngtree-bunch-of-fresh-vegetables-and-fruits-on-a-black-background-image_2899341.jpg);
     background-size: cover;
     flex-direction: column;
     justify-content: center;
@@ -45,20 +51,36 @@ nav a{
     height: 100vh;
     display: flex;
     gap: 25px;
+    position: relative;
 }
-.back h1{
+
+.overlay {  
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+}
+
+.intro-text {
+    position: relative;
+    z-index: 1;
+}
+.back h1 {
     color: white;
-     font-family: cursive;
+    font-family: cursive;
 }
-.back h4{
+
+.back h4 {
     color: white;
     font-size: x-small;
     font-family: cursive;
 
 }
-.back button{
+
+.back button {
     color: white;
-    background-color:  rgb(93, 133, 41);
+    background-color: rgb(124, 160, 76);
     border: none;
     border-radius: 60px;
     padding: 10px;
@@ -66,4 +88,137 @@ nav a{
 
 }
 
- 
+.div0 {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-top: 60px;
+    height: 50vh;
+
+}
+
+.div1 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 183, 241);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: xx-large;
+}
+
+.div2 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 209, 173);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: xx-large;
+}
+
+.div3 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(167, 210, 237);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: xx-large;
+}
+
+.div4 i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 240, 130);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: xx-large;
+}
+
+.div1 h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    margin-top: 10px;
+}
+
+.div1 h6 {
+    margin-top: 15px;
+    color: rgb(155, 150, 150);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-small;
+
+}
+
+.div2 h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    margin-top: 10px;
+}
+
+.div2 h6 {
+    margin-top: 15px;
+    color: rgb(155, 150, 150);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-small;
+}
+
+.div3 h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    margin-top: 10px;
+
+}
+
+.div3 h6 {
+    margin-top: 15px;
+    color: rgb(155, 150, 150);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-small;
+}
+
+.div4 h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    margin-top:10px;
+}
+
+.div4 h6 {
+    margin-top: 15px;
+    color: rgb(155, 150, 150);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-small;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
